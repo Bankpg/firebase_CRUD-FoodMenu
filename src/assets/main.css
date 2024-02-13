@@ -1,0 +1,33 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+#app {
+  max-width: 1280px;
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+}
+
+@media (hover: hover) {
+  a:hover {
+    transform: scale(0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 0 0rem;
+  }
+
+  #app {
+    padding: 0 0rem;
+  }
+}
