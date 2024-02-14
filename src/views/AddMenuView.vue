@@ -124,6 +124,14 @@ const alert_add = () => {
     title: 'เพิ่มรายการสำเร็จ'
   })
 }
+const alert_upd = () => {
+  Swal.fire({
+    icon: 'success',
+    showConfirmButton: false,
+    timer: 1500,
+    title: 'แก้ไขรายการสำเร็จ'
+  })
+}
 const alert_del = () => {
   Swal.fire({
     icon: 'success',
@@ -197,10 +205,12 @@ const update = async (id) => {
     await updateDoc(doc(menuRef, id), {
       food: update_input.value.food
     })
+    alert_upd()
   } if (update_input.value.price !== null && update_input.value.price !== '') {
     await updateDoc(doc(menuRef, id), {
       price: Number(update_input.value.price)
     })
+    alert_upd()
   }
   update_input.value.food = null
   update_input.value.price = null

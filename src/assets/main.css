@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
 #app {
-  max-width: 1280px;
+  max-width: 100%;
   color: black;
   font-family: 'Kanit', sans-serif;
   

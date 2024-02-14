@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex pa-5 mt-5 flex-column text-center" style="color: rgb(0, 0, 0);">
+    <div class="d-flex pa-5 mt-5 flex-column text-center" style="color: rgb(255, 255, 255);">
         <div>
             <h2>Contact</h2>
             <v-icon icon="mdi-email"></v-icon>: Pongsagon.mail@gmail.com
